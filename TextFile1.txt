@@ -1,0 +1,14 @@
+using System;
+
+class Program {
+    static void Main(string[] args) {
+        double x, y, result;
+        Console.Write("¬вед≥ть значенн€ x: ");
+        x = double.Parse(Console.ReadLine());
+        Console.Write("¬вед≥ть значенн€ y: ");
+        y = double.Parse(Console.ReadLine());
+        result = x * Math.Log(x) + y * Math.Cos(x) - Math.Pow(x, 3);
+        Console.WriteLine("–езультат: " + result);
+        Console.ReadKey();
+    }
+}
